@@ -1,6 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 
-const endPoint = "http://api.quotable.io/quotes";
+const endPoint = "http://api.quotable.io/quotes/random";
 
 export function useFetchQuery(path: string) {
   return useQuery({
@@ -12,8 +12,8 @@ export function useFetchQuery(path: string) {
   });
 }
 
-function wait (duration: number) {
+function wait(duration: number) {
   return new Promise((resolve) => {
-    setTimeout(resolve, duration*1000);
+    setTimeout(resolve, duration * 1000);
   });
 }

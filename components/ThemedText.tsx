@@ -11,6 +11,11 @@ const styles = StyleSheet.create({
     lineHeight: 32,
     fontWeight: "bold",
   },
+  headLine1: {
+    fontSize: 30,
+    lineHeight: 40,
+    fontWeight: "bold",
+  },
   caption: {
     fontSize: 8,
     lineHeight: 12,

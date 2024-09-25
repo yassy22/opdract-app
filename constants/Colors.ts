@@ -4,11 +4,12 @@ const darkTint = "#e06666";
 export const Colors = {
   light: {
     tint: tint,
-    grayDark: "#DCA02D", 
+    grayDark: "#DCA02D",
     grayMedium: "#666666",
     grayLight: "#E0E0E0",
     grayBackground: "#EFEFEF",
     grayWhite: "#FFFFFF",
+    backBackGround: "#FFFFFF",
   },
   dark: {
     tint: darkTint,
@@ -17,5 +18,6 @@ export const Colors = {
     grayLight: "#E0E0E0",
     grayBackground: "#EFEFEF",
     grayWhite: "#FFFFFF",
+    backBackGround: "#202020",
   },
 };

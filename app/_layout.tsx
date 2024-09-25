@@ -20,7 +20,8 @@ export default function RootLayout() {
     <QueryClientProvider client={queryClient}>
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        {/* <Stack.Screen name="+not-found" /> */}
+
+        <Stack.Screen name="+not-found" />
       </Stack>
     </QueryClientProvider>
   );
