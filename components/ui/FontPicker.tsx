@@ -23,6 +23,7 @@ export function FontPicker({ selectedFont, setSelectedFont }: FontPickerProps) {
   const fonts = ["Pacifico", "AmaticSC", "Lobster", "Chewy"];
 
   const fontsLoaded = useLoadFonts();
+  
 
   return (
     <View
